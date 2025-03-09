@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Keys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Key Name="Settings_key">
+  <Translates>
+    <en-us>Settings</en-us>
+    <ru>Настройки</ru>
+    <es>Ajustes</es>
+    <de>Einstellungen</de>
+  </Translates>
+</Key>
+
+<Key Name="Win!_key">
+  <Translates>
+    <en-us>Win!</en-us>
+    <ru>Победа!</ru>
+    <es>¡Ganar!</es>
+    <de>Gewonnen!</de>
+  </Translates>
+</Key>
+
+<Key Name="Education1_key">
+  <Translates>
+    <en-us>Tap on 2 identical side-by-side pictures to cross them out</en-us>
+    <ru>Тапни на 2 одинаковые рядом стоящие картинки, чтобы вычеркнуть их</ru>
+    <es>Toca 2 imágenes idénticas una al lado de la otra para tacharlas</es>
+    <de>Tippe auf 2 identische nebeneinander liegende Bilder, um sie zu streichen</de>
+  </Translates>
+</Key>
+
+<Key Name="Education2_key">
+  <Translates>
+    <en-us>Pairs can be joined through empty squares if there are no pictures between them. The task is to get a square.</en-us>
+    <ru>Пары можно объединять через пустые клетки, если между ними нет картинок. Задача - получить квадрат.</ru>
+    <es>Las parejas se pueden unir a través de cuadros vacíos si no hay imágenes entre ellas. La tarea es obtener un cuadrado.</es>
+    <de>Paare können durch leere Felder verbunden werden, wenn keine Bilder dazwischen liegen. Die Aufgabe besteht darin, ein Quadrat zu erhalten.</de>
+  </Translates>
+</Key>
+
+<Key Name="Education3_key">
+  <Translates>
+    <en-us>Pairs can also be searched vertically</en-us>
+    <ru>Пары так же можно искать и по вертикали</ru>
+    <es>También se pueden buscar parejas en vertical</es>
+    <de>Paare können auch vertikal gesucht werden</de>
+  </Translates>
+</Key>
+
+<Key Name="Education4_key">
+  <Translates>
+    <en-us>Check the end of the line and the beginning of the next line</en-us>
+    <ru>Проверяй конец строки и начало следующей</ru>
+    <es>Revisa el final de la línea y el principio de la siguiente</es>
+    <de>Überprüfe das Ende der Zeile und den Anfang der nächsten Zeile</de>
+  </Translates>
+</Key>
+
+<Key Name="Education5_key">
+  <Translates>
+    <en-us>Add more lines and keep playing</en-us>
+    <ru>Добавь больше строк и продолжай играть</ru>
+    <es>Añade más líneas y sigue jugando</es>
+    <de>Füge mehr Linien hinzu und spiele weiter</de>
+  </Translates>
+</Key>
+
+<Key Name="Music_key">
+  <Translates>
+    <en-us>Music</en-us>
+    <ru>Музыка</ru>
+    <es>Música</es>
+    <de>Musik</de>
+  </Translates>
+</Key>
+
+<Key Name="Add_key">
+  <Translates>
+    <en-us>Add</en-us>
+    <ru>Добавить</ru>
+    <es>Añadir</es>
+    <de>Hinzufügen</de>
+  </Translates>
+</Key>
+
+<Key Name="You lose_key">
+  <Translates>
+    <en-us>You lose</en-us>
+    <ru>Проигрыш</ru>
+    <es>Perdiste</es>
+    <de>Du hast verloren</de>
+  </Translates>
+</Key>
+
+<Key Name="Level_key">
+  <Translates>
+    <en-us>Level</en-us>
+    <ru>Уровень</ru>
+    <es>Nivel</es>
+    <de>Level</de>
+  </Translates>
+</Key>
+
+<Key Name="Help_key">
+  <Translates>
+    <en-us>Help</en-us>
+    <ru>Помощь</ru>
+    <es>Ayuda</es>
+    <de>Hilfe</de>
+  </Translates>
+</Key>
+
+	
+</Keys>
