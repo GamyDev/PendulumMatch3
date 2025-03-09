@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour
     public void ShowGameOver()
     {
         gameOverScreen.SetActive(true);
-        scoreText.text = "Очки: " + score;
+        scoreText.text = "Score: " + score;
     }
 
     public void RestartGame()

@@ -24,6 +24,8 @@ public class GameGrid : MonoBehaviour
     {
        
         int row = GetEmptyRow(column);
+        
+        Debug.Log($"Adding ball to grid: {column}, {row}");
         if (row == -1) return; 
 
         float yPos = dropZones[column].position.y + row * ballSpacing + yOffset;
