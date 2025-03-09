@@ -104,9 +104,10 @@ namespace Match3Game.Utils
                     foreach (SimpleBall ball in toDestroy)
                     {
                         destroyBallEvent?.Invoke(ball);
-                        
-                        ball.DestroyObject();
-                        ball.RemoveFromGrid(this);
+
+                    ball.RemoveFromGrid(this);
+                    ball.DestroyObject();
+                      
                     }
         
                     StartCoroutine(ApplyGravity());

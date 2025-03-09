@@ -19,6 +19,7 @@ namespace Match3Game.Controllers
         private void Start()
         {
             highScore = PlayerPrefs.GetInt("highScore", highScore);
+            ShowScore();
         }
 
         private void OnDestroyBallEvent(SimpleBall ball)
@@ -54,6 +55,8 @@ namespace Match3Game.Controllers
 
                 PlayerPrefs.SetInt("highScore", highScore);
             }
+
+
 
             ShowScore();
         }

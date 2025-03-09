@@ -41,11 +41,10 @@ namespace Match3Game.Balls
 
         public IColorable Colorable => colorable;
 
-        public void Start()
+        private void OnEnable()
         {
-            colorable =  new BallColorer(spriteRendererr);
+            colorable = new BallColorer(spriteRendererr);
             dropable = new BallDropper(rb2d);
-
             var colorsLength = Colorable.Colors.Length;
             Colorable.SetColor(Random.Range(0, colorsLength));
         }
@@ -85,7 +84,8 @@ namespace Match3Game.Balls
 
         public void DestroyObject()
         {
-            StartCoroutine(SpawnObjectWithDelay());
+               StartCoroutine(SpawnObjectWithDelay());
+          
         }
 
         IEnumerator SpawnObjectWithDelay()
@@ -93,6 +93,12 @@ namespace Match3Game.Balls
             yield return new WaitForSeconds(0.5f);
             NightPool.Spawn(particleObject, transform.position, Quaternion.identity);
             NightPool.Despawn(gameObject);
+            
+        }
+
+        private void OnDisable()
+        {
+            Disabled = false;
         }
     }
 }
