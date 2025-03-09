@@ -3,6 +3,8 @@ using Match3Game.Utils;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
+using NTC.Pool;
+using System.Collections;
 
 namespace Match3Game.Balls
 {
@@ -29,7 +31,7 @@ namespace Match3Game.Balls
     {   
         [SerializeField] private Rigidbody2D rb2d;
         [SerializeField] private SpriteRenderer spriteRendererr;
-
+        [SerializeField] private GameObject particleObject;
         public bool Disabled { get; set; }
         
         private IColorable colorable;
@@ -83,7 +85,19 @@ namespace Match3Game.Balls
 
         public void DestroyObject()
         {
-            Destroy(gameObject);
+            //  GameObject item = NightPool.Spawn(particleObject, transformPoint);
+            //   item.transform.position = transform.position;
+
+
+            StartCoroutine(SpawnObjectWithDelay());
+            //  Destroy(gameObject);
+        }
+
+        IEnumerator SpawnObjectWithDelay()
+        {
+            yield return new WaitForSeconds(0.5f);
+            NightPool.Spawn(particleObject);
+            NightPool.Despawn(gameObject);
         }
     }
 }

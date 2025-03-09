@@ -1,3 +1,4 @@
+using NTC.Pool;
 using UnityEngine;
 
 
@@ -20,7 +21,9 @@ namespace Match3Game.BallsFactory
         
         public GameObject CreateObject(Vector3 position, Transform parent)
         {
-            return Object.Instantiate(Prefab, position, Quaternion.identity, parent);
+          //  GameObject item = NightPool.Spawn(prefubParticle, transformPoint);
+           // return Object.Instantiate(Prefab, position, Quaternion.identity, parent);
+            return NightPool.Spawn(Prefab, position, Quaternion.identity, parent);
         }
     }    
 }

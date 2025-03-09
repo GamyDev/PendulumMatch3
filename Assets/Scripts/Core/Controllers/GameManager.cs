@@ -31,6 +31,7 @@ namespace Match3Game.Controllers
             }
         }
 
+
         private void OnDisable()
         {
             SimpleBall.addToGridEvent -= OnAddToGridEvent;
