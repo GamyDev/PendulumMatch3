@@ -85,18 +85,13 @@ namespace Match3Game.Balls
 
         public void DestroyObject()
         {
-            //  GameObject item = NightPool.Spawn(particleObject, transformPoint);
-            //   item.transform.position = transform.position;
-
-
             StartCoroutine(SpawnObjectWithDelay());
-            //  Destroy(gameObject);
         }
 
         IEnumerator SpawnObjectWithDelay()
         {
             yield return new WaitForSeconds(0.5f);
-            NightPool.Spawn(particleObject);
+            NightPool.Spawn(particleObject, transform.position, Quaternion.identity);
             NightPool.Despawn(gameObject);
         }
     }

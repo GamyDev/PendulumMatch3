@@ -25,6 +25,7 @@ namespace Match3Game.Controllers
 
         void ShowGameOver()
         {
+
             gameOverPanel.SetActive(true);
         }
     }

@@ -108,5 +108,23 @@
   </Translates>
 </Key>
 
-	
+	<Key Name="Score_key">
+		<Translates>
+			<en-us>Score:</en-us>
+			<ru>Счет:</ru>
+			<es>Puntuación:</es>
+			<de>Punktzahl:</de>
+		</Translates>
+	</Key>
+
+	<Key Name="High Score_key">
+		<Translates>
+			<en-us>High Score:</en-us>
+			<ru>Рекорд:</ru>
+			<es>Récord:</es>
+			<de>Rekord:</de>
+		</Translates>
+	</Key>
+
+
 </Keys>

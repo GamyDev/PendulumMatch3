@@ -20,7 +20,10 @@ namespace  Match3Game.Context
             RegisterPendulumService();
             RegisterPendulumLineService();
         }
-
+        private void OnDisable()
+        {
+            GameServices.Clear();
+        }
         private void RegisterGridService()
         {
             var simpleGrid = _simpleGrid.GetController<SimpleGrid>();

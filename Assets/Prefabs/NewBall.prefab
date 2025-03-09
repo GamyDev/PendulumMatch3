@@ -163,4 +163,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2d: {fileID: 8390307505884620720}
   spriteRendererr: {fileID: 1169128642533535970}
-  particleObject: {fileID: 4812204685892630528, guid: 6bcd7f12446c2384ab14f35533bfd69f, type: 3}
+  particleObject: {fileID: 1209601309875748, guid: b170aebab32c55e468901bd9220320f8, type: 3}

@@ -21,6 +21,8 @@ public static class GameServices
         }
     }
 
+    public static void Clear() => _services.Clear();
+
     public static T Get<T>() where T : class
     {
         var type = typeof(T);
